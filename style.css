@@ -5,9 +5,17 @@
   
   h1 {
     color: SeaGreen;
+    background-color:azure;
+    text-align: center;
   }
   
-  
+  img .presidio{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+
+  }
+
   p, 
   li {
     font-size: 18px;
