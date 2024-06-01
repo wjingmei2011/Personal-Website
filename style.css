@@ -11,16 +11,16 @@
   }
   
   img.presidio{
-    height: 100px;
-    width: 150px;
-    margin: 0 auto;
-
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 20px auto; 
   }
 
   .book img{
-    height: 20px;
-    width: 50px;
-    margin: 0 auto;
+    height: auto;
+    width: auto;
+    align-items: center;
   }
 
   p, 
