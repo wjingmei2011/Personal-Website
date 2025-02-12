@@ -1,72 +1,70 @@
-<html> 
-  <head>
-    <title>May Wang's personal website</title> 
-    <link href="./style.css" type="text/css" rel="stylesheet">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>May's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-  <body> 
     <header>
-    <h1>Welcome to May's Personal Website</h1>
-    <img class = 'presidio' src="./Presidio.jpeg">
-    </header> 
-    
-    <div class="Opening">
-    <p>I'm learning about HTML and CSS on Codecademy! My goal is to:</p>
-    <ul>
-      <li>Build things</li>
-      <li>Break things</li>
-      <li>Have fun! </li>
-    </ul>
-    </div>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#reading">Reading</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./Images/Presidio green.jpeg" alt="May with Mochi at Presidio">
+    </header>
 
-    <div class="self intro">
-    
-    <h2>Introducing Myself</h2>
-    <p>I'm an adventurer, foodie, golf and tennis players, occasional follower of pop culture and celebrity gossips, oh! and a happy Mom of a border collie boy, Mochi (you can find his photos <a herf='https://www.instagram.com/mochi_border_collie/', target="_blank"> here </a> </p>
-    <p>I'm originally from Sichuan, China (yes, very spicy food), studied/worked in Japan (Nara and Tokyo) and now a resident in California, US (you could probably tell from the picture above;). </p>
-    
-    <img src=" "><img src=" "><img src=" ">
-  
-    </div>
+    <section id="intro">
+        <h2>Introducing Myself</h2>
+        <p>Hi! I'm a self-taught developer and lifelong learner, an adventurer at heart, a foodie with a love for bold flavors, an active reader and golf enthusiast, and an occasional follower of pop culture and celebrity gossip. Oh, and most importantly—a proud dog mom to my adorable Border Collie, Mochi! (You can find his photos on this page😉)
+        <p>Originally from Sichuan, China (yes, I can handle very spicy food 🌶️), I’ve had the privilege of studying and working in Japan (Nara and Tokyo) before settling in sunny California, USA. If the picture above didn’t already give it away, I’m fully embracing the West Coast lifestyle!</p>
+    </section>
 
+    <section id="projects">
+        <h2>What I'm Hacking These Days</h2>
+        <img src="https://via.placeholder.com/400x250" alt="Project preview">
+        <div class="project">
+            <h3>Pokemon Personality App</h3>
+            <p>A fun web app that matches you with a Pokémon based on your personality and favorite color.</p>
+            <a href="https://github.com/wjingmei2011/Pokemon-Personality-App" target="_blank">View on GitHub</a>
+        </div>
+    </section>
 
-    <div class="book">
-    <h2>What I'm reading these days</h2>
-    <p>I'm reading this book recently: <a href='https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509', target="_blank"> The Phoenix Project</a>. It talks about DevOps management and is both informative and fun to read. I highly recommend it! </p> 
-    <p>Other books I'm reading or have read recently and highly recommend: </p>
-    <ul>
-      <li>How Computer Works - it explains very complicated concepts in a clear way, with lots of illustrative images that are very helpful for beginners like myself to grasp the nuts and bolts of how computer hardware and software work. </li>
-      <img src="./Images/How computers work.webp">
-  
-      <li>The Body</li>
-      <img src="">
-      <li>Three Body Problem </li>
-      <img src="">
-  
-    </ul>
-    
-  </div>  
+    <section id="reading">
+        <h2>What I'm Reading These Days</h2>
+        <div class="book">
+            <h3>The Phoenix Project</h3>
+            <img src="./Images/The Phoenix Project.jpeg" alt="The Phoenix Project book">
+            <p>A novel about DevOps and IT management that provides valuable insights into modern software development practices.</p>
+        </div>
+        <div class="book">
+            <h3>How Computers Work</h3>
+            <img src="./Images/How computers work.webp" alt="how computers work"> <img src="./Images/How computer work inner page.jpg" alt="how computers work inner page">
+            <p>Diving into transistors, computer architecture and hardware-software interactions.</p>
+        </div>
+    </section>
 
-  <div class="projects">
-    <h2>What I'm hacking on these days</h2>
-    <p>Well as a self-learning coder and data scientist, I'm starting from the basics. </p>
-    <p>Recently I've learnt how to : </p>
-    <ul>
-      <li>Code in basic Python syntax</li>
-      <li>Data analysis and cleaning using Numpy and Pandas</li>
-      <li>Command Line in Unix environment</li>
-      <li>Fundamentals of Web Development</li>
-    </ul>
-    
-  </div>  
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Interested in collaborating or just want to say hi? Feel free to reach out!</p>
+        <a href="mailto:wjingmei2011@gmail.com">📧 Email</a>
+        <a href="https://github.com/wjingmei2011" target="_blank">🐙 GitHub</a>
+        <a href="https://github.com/yourgithub" target="_blank">Bluesky</a>
+    </section>
 
-  </body>
+    <footer>
+        <p>&copy; 2025 May Wang | Built with ❤️ and JavaScript</p>
+    </footer>
 
-  <footer> 
-    <p>Wanna chat more? Find me at:</p>
-    <ul>
-      <li><a href='', target="_blank">GitHub</a></li>
-      <li><a href='', target="_blank">LinkedIn</a></li>
-      <li><a href='', target="_blank">Email</a></li>
-  </footer>
+</body>
 </html>
