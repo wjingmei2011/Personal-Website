@@ -70,9 +70,10 @@ h2 {
   background: #eaf6f6;
   text-align: center;
   border-radius: 10px;
+  padding: 50px 0;
 }
 
-#projects img {
+.project img {
   width: 100%;
   max-width: 400px;
   height: auto;
