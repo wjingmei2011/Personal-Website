@@ -70,11 +70,10 @@ h2 {
   background: #eaf6f6;
   text-align: center;
   border-radius: 10px;
-  padding: 50px 0;
 }
 
 .project {
-  margin-bottom: 50px; /* Add more space between projects */
+  margin-bottom: 100px; /* Add more space between projects */
 }
 
 .project img {
